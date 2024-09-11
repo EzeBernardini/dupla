@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-celeste: #6CACE4;
+}
+nav{
+    background-color: var(--color-celeste);
+}
+footer{
+    background-color: var(--color-celeste);
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+}
