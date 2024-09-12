@@ -1,3 +1,4 @@
+/* indexb */
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,22 @@ footer{
     background-color: var(--color-celeste);
     margin-top: 50px;
 }
-h1{
-    text-align: center;
-}
+
+/* index */
+.high-contrast {
+    background-color: black;
+    color: white;
+  }
+  
+  .high-contrast .form-control {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .high-contrast .btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
