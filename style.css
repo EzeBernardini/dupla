@@ -1,0 +1,36 @@
+/* indexb */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-celeste: #6CACE4;
+}
+nav{
+    background-color: var(--color-celeste);
+}
+footer{
+    background-color: var(--color-celeste);
+    margin-top: 50px;
+}
+
+/* index */
+.high-contrast {
+    background-color: black;
+    color: white;
+  }
+  
+  .high-contrast .form-control {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .high-contrast .btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  #formConj{
+    border: 10px solid;
+  }
