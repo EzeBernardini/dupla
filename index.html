@@ -21,7 +21,7 @@
   </header>
 
   <main>
-    <form class="p-4 m-4 rounded border border-warning">
+    <form class="p-4 m-4 rounded border border-warning border-5" id="formConj">
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre: </label>
         <input type="text" id="nombre" name="nombre" required aria-invalid="true" aria-describedby="error-cumple" placeholder="Ejemplo: Juan">
@@ -53,8 +53,12 @@
         <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="button" class="btn btn-info">Enviar</button>
+      <button type="button" class="btn btn-info sticky-bottom col-12">Enviar</button>
     </form>
+
+    <div class="text-center">
+      <a href="indexB.html"><button type="button" class="btn btn-secondary col-md-2">Ir a formulario Extra</button></a>
+    </div>
   </main>
 
 
